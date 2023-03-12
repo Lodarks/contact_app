@@ -1,0 +1,40 @@
+#container {
+    width: 400px;
+    border: 5px double black;
+    background-color: aliceblue;
+    padding: 20px;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 14px;
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.list {
+    margin: 15px 0;
+
+}
+.list li {
+    border: 1px solid black;
+    background-color: plum;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
